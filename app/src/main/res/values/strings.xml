@@ -9,4 +9,7 @@
     <string name="lbl_new_payment">Make new payments</string>
     <string name="lbl_return_refund">Accept return &amp; refund customer</string>
     <string name="lbl_tap_payment">Tap here to receive payment from customer</string>
+
+    <string name="proceed_payment">Proceed Payment</string>
+    <string name="proceed_draft">Save as Draft</string>
 </resources>
