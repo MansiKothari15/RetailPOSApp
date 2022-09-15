@@ -15,4 +15,12 @@
         <item name="android:colorBackground">@color/white</item>
         <item name="android:fontFamily">@font/brfirma_medium</item>
     </style>
+
+    <style name="CardViewStyle" parent="CardView">
+        <item name="cardElevation">@dimen/_5sdp</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
 </resources>

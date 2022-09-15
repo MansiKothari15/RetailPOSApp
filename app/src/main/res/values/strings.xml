@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">RetailPOSApp</string>
+
+    <!--Dashboard-->
+    <string name="lbl_payment">Accept Payment</string>
+    <string name="lbl_returns">Accept Returns</string>
+    <string name="lbl_deals">Redeem Deals</string>
+    <string name="lbl_redeem_deals">Redeem ThankUCash Deals</string>
+    <string name="lbl_new_payment">Make new payments</string>
+    <string name="lbl_return_refund">Accept return &amp; refund customer</string>
+    <string name="lbl_tap_payment">Tap here to receive payment from customer</string>
 </resources>
