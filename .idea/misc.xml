@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_back.xml" value="0.187" />
+        <entry key="app/src/main/res/drawable/bg_edittext.xml" value="0.187" />
         <entry key="app/src/main/res/drawable/custom_white_rounded_rect.xml" value="0.187" />
+        <entry key="app/src/main/res/drawable/edittext_active_bg.xml" value="0.187" />
         <entry key="app/src/main/res/drawable/green_dot.xml" value="0.187" />
         <entry key="app/src/main/res/drawable/ic_back.xml" value="0.187" />
         <entry key="app/src/main/res/drawable/ic_success.xml" value="0.187" />
@@ -13,8 +15,12 @@
         <entry key="app/src/main/res/layout/custom_alert_dialog.xml" value="0.18177083333333333" />
         <entry key="app/src/main/res/layout/custom_announcement_dialog.xml" value="0.18177083333333333" />
         <entry key="app/src/main/res/layout/fragment_invoices.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_payment.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_returns.xml" value="0.22" />
         <entry key="app/src/main/res/layout/layout_bottom_options.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/row_invoice.xml" value="0.18177083333333333" />
         <entry key="app/src/main/res/layout/row_invoices.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/row_returns.xml" value="0.14920906370243694" />
         <entry key="app/src/main/res/layout/toolbar_menu.xml" value="0.18177083333333333" />
       </map>
     </option>

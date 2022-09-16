@@ -12,4 +12,16 @@
 
     <string name="proceed_payment">Proceed Payment</string>
     <string name="proceed_draft">Save as Draft</string>
+
+    <string-array name="customer_filter">
+        <item>Filter</item>
+        <item>Amount</item>
+    </string-array>
+
+    <string-array name="customer_sort">
+        <item>Sort</item>
+        <item>Sort by Name</item>
+        <item>Sort by Date</item>
+    </string-array>
+
 </resources>

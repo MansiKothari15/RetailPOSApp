@@ -16,6 +16,22 @@
         <item name="android:fontFamily">@font/brfirma_medium</item>
     </style>
 
+    <style name="BasicEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edittext_selector</item>
+        <item name="android:padding">@dimen/_8sdp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:fontFamily">@font/brfirma_medium</item>
+        <item name="hintTextColor">@color/light_grey</item>
+    </style>
+
+    <style name="BasicSpinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:padding">@dimen/_6sdp</item>
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/brfirma_regular</item>
+    </style>
+
     <style name="CardViewStyle" parent="CardView">
         <item name="cardElevation">@dimen/_5sdp</item>
         <item name="cardPreventCornerOverlap">true</item>

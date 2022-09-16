@@ -13,13 +13,20 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvHistory"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/cv_bottom"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cv_bottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
         <Button
             android:id="@+id/btn_draft"
             android:layout_width="wrap_content"
