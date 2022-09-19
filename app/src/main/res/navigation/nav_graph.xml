@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        android:id="@+id/invoicesFragment"
+        android:name="com.tuc.retailpos.ui.fragment.InvoicesFragment"
+        android:label="fragment_invoices"
+        tools:layout="@layout/fragment_invoices" />
+
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.tuc.retailpos.ui.fragment.PaymentFragment"
+        android:label="fragment_payment"
+        tools:layout="@layout/fragment_payment" />
+
+    <fragment
+        android:id="@+id/returnsFragment"
+        android:name="com.tuc.retailpos.ui.fragment.ReturnsFragment"
+        android:label="fragment_returns"
+        tools:layout="@layout/fragment_returns" />
+
+</navigation>

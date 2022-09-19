@@ -12,6 +12,7 @@
 
     <string name="proceed_payment">Proceed Payment</string>
     <string name="proceed_draft">Save as Draft</string>
+    <string name="new_invoice">New Invoice</string>
 
     <string-array name="customer_filter">
         <item>Filter</item>
