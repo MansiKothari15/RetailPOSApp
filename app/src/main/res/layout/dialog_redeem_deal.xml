@@ -7,8 +7,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/cvWalletOptions"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_160sdp"
-        android:layout_margin="@dimen/_10sdp"
+        android:layout_height="@dimen/_180sdp"
+        android:padding="@dimen/_10sdp"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
@@ -26,7 +26,7 @@
             android:id="@+id/lbl_deal_code"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/brfirma_semibold"
+            android:fontFamily="@font/brfirma_regular"
             android:textSize="@dimen/_12ssp"
             android:text="Deal Code"
             android:textColor="@color/color_primary_text"
@@ -35,28 +35,36 @@
             app:layout_constraintTop_toBottomOf="@+id/lbl_fill_wallet" />
         <EditText
             android:id="@+id/etAmount"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/_200sdp"
             android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            app:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="@dimen/_10sdp"
-            app:layout_constraintTop_toBottomOf="@+id/lbl_fill_wallet"/>
+            android:maxLength="11"
+            android:singleLine="true"
+            android:padding="@dimen/_5sdp"
+            app:layout_constraintTop_toBottomOf="@+id/lbl_deal_code"/>
         <Button
             android:id="@+id/btn_cancel"
             style="@style/CustomButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            app:layout_constraintHorizontal_chainStyle="packed"
             android:text="Cancel"
             android:textAllCaps="false"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_redeem"
             app:layout_constraintBottom_toBottomOf="parent" />
         <Button
             android:id="@+id/btn_redeem"
             style="@style/CustomButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Redeem"
+            android:text="Redeem Deal"
             android:layout_marginStart="@dimen/_10sdp"
             android:textAllCaps="false"
             app:layout_constraintStart_toEndOf="@+id/btn_cancel"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
