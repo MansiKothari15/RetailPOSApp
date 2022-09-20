@@ -3,6 +3,9 @@ package com.tuc.retailpos.ui.activity
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.fragment.findNavController
+import com.tuc.retailpos.R
 import com.tuc.retailpos.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -17,8 +20,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.apply {
-
-            cvPayment.setOnClickListener {  }
+            navController =
+                (supportFragmentManager.findFragmentById(navHostFragment.id)
+                        as NavHostFragment).findNavController()
         }
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        return navController.navigateUp()
     }
 }

@@ -14,6 +14,9 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
         <entry key="app/src/main/res/layout/custom_alert_dialog.xml" value="0.18177083333333333" />
         <entry key="app/src/main/res/layout/custom_announcement_dialog.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/dialog_redeem_deal.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.14023086789226166" />
+        <entry key="app/src/main/res/layout/fragment_invoice_detail.xml" value="0.20051303976058144" />
         <entry key="app/src/main/res/layout/fragment_invoices.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_payment.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_proceed_payment.xml" value="0.1996579734929457" />
@@ -21,7 +24,7 @@
         <entry key="app/src/main/res/layout/fragment_returns.xml" value="0.22" />
         <entry key="app/src/main/res/layout/layout_bottom_options.xml" value="0.18177083333333333" />
         <entry key="app/src/main/res/layout/row_invoice.xml" value="0.18177083333333333" />
-        <entry key="app/src/main/res/layout/row_invoice_to_return.xml" value="0.13852073535699017" />
+        <entry key="app/src/main/res/layout/row_invoice_to_return.xml" value="0.25" />
         <entry key="app/src/main/res/layout/row_invoices.xml" value="0.22" />
         <entry key="app/src/main/res/layout/row_payment.xml" value="0.33" />
         <entry key="app/src/main/res/layout/row_returns.xml" value="0.14920906370243694" />
